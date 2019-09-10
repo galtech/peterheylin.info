@@ -1,6 +1,8 @@
 body{
   font-family: sans-serif;
   text-align: center;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 a, a:hover, a:active, a:visited{
@@ -19,6 +21,17 @@ a, a:hover, a:active, a:visited{
 .site-button p{
   color: #000000;
 }
+
+#intro{
+  width: 50%;
+  height: 400px;
+  margin: 0px auto;
+}
+
+#intro p, img{
+  text-align: center;
+}
+
 
 @media (max-width: 767px) {
   .fullscreen-bg {
