@@ -32,6 +32,19 @@ a, a:hover, a:active, a:visited{
   text-align: center;
 }
 
+#socialbuttons{
+  width: 55px;
+  height: 180px;
+  padding: 5px;
+  background: #ffffff;
+  position: fixed;
+}
+
+#socialbuttons img{
+  width: 50px;
+  opacity: 1;
+}
+
 
 @media (max-width: 767px) {
   .fullscreen-bg {
