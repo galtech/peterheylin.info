@@ -9,6 +9,7 @@ a, a:hover, a:active, a:visited{
   color: green;
 }
 
+
 .site-button{
   width: 250px;
   height: 120px;
@@ -24,7 +25,7 @@ a, a:hover, a:active, a:visited{
 
 #intro{
   width: 50%;
-  height: 400px;
+  height: auto;
   margin: 0px auto;
 }
 
