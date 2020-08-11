@@ -1,8 +1,8 @@
 body{
   font-family: sans-serif;
   text-align: center;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #ececec;
+  color: dark-grey;
 }
 
 a, a:hover, a:active, a:visited{
@@ -11,26 +11,37 @@ a, a:hover, a:active, a:visited{
 
 
 .site-button{
-  width: 250px;
-  height: 120px;
-  background: #ececec;
+  width: 350px;
+  height: 150px;
+  background: #fff;
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
+  border-radius: 10%;
+  box-shadow: 5px 5px #1c1c1c;
 }
 
 .site-button p{
   color: #000000;
 }
 
+.site-button:hover{
+  box-shadow: none;
+}
+
 #intro{
   width: 50%;
   height: auto;
   margin: 0px auto;
+  font-size: 18pt;
 }
 
 #intro p, img{
   text-align: center;
+}
+
+#intro img{
+  border: 1px solid #000000;
 }
 
 #socialbuttons{
@@ -39,6 +50,7 @@ a, a:hover, a:active, a:visited{
   padding: 5px;
   background: #ffffff;
   position: fixed;
+  border: 1px solid #000000;
 }
 
 #socialbuttons img{
