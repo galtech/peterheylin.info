@@ -42,11 +42,20 @@ a, a:hover, a:active, a:visited{
 
 #intro img{
   border: 1px solid #000000;
+  border-radius: 25%;
+  float: left;
+}
+
+#intro p{
+  background-color: #fff;
+  border-radius: 25%;
+  padding: 9%;
+  line-height: 1.5;
 }
 
 #socialbuttons{
   width: 55px;
-  height: 320px;
+  height: 375px;
   padding: 5px;
   background: #ffffff;
   position: fixed;
